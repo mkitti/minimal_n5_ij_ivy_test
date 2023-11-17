@@ -1,0 +1,134 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.janelia:ivy_n5_ij_demo[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding ivy_n5_ij_demo 1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:tree[m [1m(default-cli)[m @ [36mivy_n5_ij_demo[0;1m ---[m
+[[1;34mINFO[m] org.janelia:ivy_n5_ij_demo:jar:1
+[[1;34mINFO[m] \- org.janelia.saalfeldlab:n5-ij:jar:3.2.6:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5:jar:3.0.0:compile
+[[1;34mINFO[m]    |  +- org.tukaani:xz:jar:1.9:compile
+[[1;34mINFO[m]    |  +- org.lz4:lz4-java:jar:1.8.0:compile
+[[1;34mINFO[m]    |  \- org.apache.commons:commons-compress:jar:1.21:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5-blosc:jar:1.1.0:compile
+[[1;34mINFO[m]    |  \- org.lasersonlab:jblosc:jar:1.0.1:compile
+[[1;34mINFO[m]    |     +- junit:junit:jar:4.12:compile
+[[1;34mINFO[m]    |     |  \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[[1;34mINFO[m]    |     \- net.java.dev.jna:jna:jar:4.2.2:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5-google-cloud:jar:4.0.0:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5-imglib2:jar:7.0.0:compile
+[[1;34mINFO[m]    |  +- net.imglib2:imglib2-label-multisets:jar:0.11.5:compile
+[[1;34mINFO[m]    |  |  +- net.sf.trove4j:trove4j:jar:3.0.3:compile
+[[1;34mINFO[m]    |  |  \- org.slf4j:slf4j-api:jar:1.7.36:compile
+[[1;34mINFO[m]    |  +- net.imglib2:imglib2:jar:6.1.0:compile
+[[1;34mINFO[m]    |  +- net.imglib2:imglib2-cache:jar:1.0.0-beta-17:compile
+[[1;34mINFO[m]    |  |  +- com.github.ben-manes.caffeine:caffeine:jar:2.9.3:compile
+[[1;34mINFO[m]    |  |  \- org.scijava:scijava-optional:jar:1.0.1:compile
+[[1;34mINFO[m]    |  +- net.imglib2:imglib2-realtransform:jar:4.0.1:compile
+[[1;34mINFO[m]    |  |  +- gov.nist.math:jama:jar:1.0.3:compile
+[[1;34mINFO[m]    |  |  \- jitk:jitk-tps:jar:3.0.3:compile
+[[1;34mINFO[m]    |  |     \- com.googlecode.efficient-java-matrix-library:ejml:jar:0.25:compile
+[[1;34mINFO[m]    |  \- se.sawano.java:alphanumeric-comparator:jar:1.4.1:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5-hdf5:jar:2.0.0:compile
+[[1;34mINFO[m]    |  \- cisd:jhdf5:jar:19.04.1:compile
+[[1;34mINFO[m]    |     +- cisd:base:jar:18.09.0:compile
+[[1;34mINFO[m]    |     +- commons-io:commons-io:jar:2.6:compile
+[[1;34mINFO[m]    |     \- org.apache.commons:commons-lang3:jar:3.7:compile
+[[1;34mINFO[m]    +- org.janelia.saalfeldlab:n5-zarr:jar:1.0.0:compile
+[[1;34mINFO[m]    +- net.imglib2:imglib2-ij:jar:2.0.1:compile
+[[1;34mINFO[m]    |  \- net.imagej:imagej-common:jar:2.0.3:compile
+[[1;34mINFO[m]    |     +- net.imglib2:imglib2-roi:jar:0.12.1:compile
+[[1;34mINFO[m]    |     +- org.scijava:scijava-table:jar:0.7.0:compile
+[[1;34mINFO[m]    |     \- edu.ucar:udunits:jar:4.3.18:compile
+[[1;34mINFO[m]    +- net.imagej:ij:jar:1.54f:compile
+[[1;34mINFO[m]    +- org.scijava:scijava-common:jar:2.94.2:compile
+[[1;34mINFO[m]    |  \- org.scijava:parsington:jar:3.1.0:compile
+[[1;34mINFO[m]    +- com.fasterxml.jackson.core:jackson-databind:jar:2.14.2:compile
+[[1;34mINFO[m]    |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.14.2:compile
+[[1;34mINFO[m]    |  \- com.fasterxml.jackson.core:jackson-core:jar:2.14.2:compile
+[[1;34mINFO[m]    +- com.google.cloud:google-cloud-resourcemanager:jar:1.18.0:compile
+[[1;34mINFO[m]    |  +- com.google.api.grpc:proto-google-cloud-resourcemanager-v3:jar:1.18.0:compile
+[[1;34mINFO[m]    |  +- com.google.api:api-common:jar:2.9.0:compile
+[[1;34mINFO[m]    |  +- com.google.auto.value:auto-value-annotations:jar:1.10.1:compile
+[[1;34mINFO[m]    |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[[1;34mINFO[m]    |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[[1;34mINFO[m]    |  +- com.google.errorprone:error_prone_annotations:jar:2.18.0:compile
+[[1;34mINFO[m]    |  +- org.threeten:threetenbp:jar:1.6.8:compile
+[[1;34mINFO[m]    |  +- com.google.apis:google-api-services-cloudresourcemanager:jar:v1-rev20230129-2.0.0:compile
+[[1;34mINFO[m]    |  +- com.google.api-client:google-api-client:jar:2.2.0:compile
+[[1;34mINFO[m]    |  +- commons-codec:commons-codec:jar:1.15:compile
+[[1;34mINFO[m]    |  +- com.google.oauth-client:google-oauth-client:jar:1.34.1:compile
+[[1;34mINFO[m]    |  +- com.google.http-client:google-http-client-apache-v2:jar:1.43.1:compile
+[[1;34mINFO[m]    |  +- com.google.http-client:google-http-client-gson:jar:1.43.1:compile
+[[1;34mINFO[m]    |  +- com.google.http-client:google-http-client:jar:1.43.1:compile
+[[1;34mINFO[m]    |  +- org.apache.httpcomponents:httpclient:jar:4.5.14:compile
+[[1;34mINFO[m]    |  +- commons-logging:commons-logging:jar:1.2:compile
+[[1;34mINFO[m]    |  +- org.apache.httpcomponents:httpcore:jar:4.4.16:compile
+[[1;34mINFO[m]    |  +- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[[1;34mINFO[m]    |  +- io.opencensus:opencensus-api:jar:0.31.1:compile
+[[1;34mINFO[m]    |  +- io.opencensus:opencensus-contrib-http-util:jar:0.31.1:compile
+[[1;34mINFO[m]    |  +- com.google.auth:google-auth-library-oauth2-http:jar:1.16.0:compile
+[[1;34mINFO[m]    |  +- com.google.auth:google-auth-library-credentials:jar:1.16.0:compile
+[[1;34mINFO[m]    |  +- com.google.cloud:google-cloud-core:jar:2.16.0:compile
+[[1;34mINFO[m]    |  +- com.google.protobuf:protobuf-java-util:jar:3.21.12:compile
+[[1;34mINFO[m]    |  +- com.google.cloud:google-cloud-core-http:jar:2.16.0:compile
+[[1;34mINFO[m]    |  +- com.google.http-client:google-http-client-appengine:jar:1.43.1:compile
+[[1;34mINFO[m]    |  +- com.google.guava:guava:jar:31.1-jre:compile
+[[1;34mINFO[m]    |  +- com.google.guava:failureaccess:jar:1.0.1:compile
+[[1;34mINFO[m]    |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[[1;34mINFO[m]    |  +- org.checkerframework:checker-qual:jar:3.32.0:compile
+[[1;34mINFO[m]    |  +- com.google.api.grpc:proto-google-iam-v1:jar:1.12.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-api:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-context:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-stub:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-protobuf:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-protobuf-lite:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- com.google.api.grpc:proto-google-common-protos:jar:2.17.0:compile
+[[1;34mINFO[m]    |  +- com.google.protobuf:protobuf-java:jar:3.21.12:compile
+[[1;34mINFO[m]    |  +- com.google.api:gax-grpc:jar:2.26.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-alts:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-grpclb:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- org.conscrypt:conscrypt-openjdk-uber:jar:2.5.2:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-auth:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.grpc:grpc-netty-shaded:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- io.perfmark:perfmark-api:jar:0.26.0:runtime
+[[1;34mINFO[m]    |  +- io.grpc:grpc-core:jar:1.54.0:compile
+[[1;34mINFO[m]    |  +- com.google.android:annotations:jar:4.1.1.4:runtime
+[[1;34mINFO[m]    |  +- org.codehaus.mojo:animal-sniffer-annotations:jar:1.23:runtime
+[[1;34mINFO[m]    |  +- io.grpc:grpc-googleapis:jar:1.54.0:runtime
+[[1;34mINFO[m]    |  +- io.grpc:grpc-xds:jar:1.54.0:runtime
+[[1;34mINFO[m]    |  +- io.opencensus:opencensus-proto:jar:0.2.0:runtime
+[[1;34mINFO[m]    |  +- io.grpc:grpc-services:jar:1.54.0:runtime
+[[1;34mINFO[m]    |  +- com.google.re2j:re2j:jar:1.6:runtime
+[[1;34mINFO[m]    |  \- com.google.api:gax-httpjson:jar:0.111.0:compile
+[[1;34mINFO[m]    +- com.google.cloud:google-cloud-storage:jar:2.22.1:compile
+[[1;34mINFO[m]    |  +- com.google.http-client:google-http-client-jackson2:jar:1.43.1:compile
+[[1;34mINFO[m]    |  +- com.google.apis:google-api-services-storage:jar:v1-rev20230301-2.0.0:compile
+[[1;34mINFO[m]    |  +- com.google.cloud:google-cloud-core-grpc:jar:2.16.0:compile
+[[1;34mINFO[m]    |  +- com.google.api.grpc:proto-google-cloud-storage-v2:jar:2.22.1-alpha:compile
+[[1;34mINFO[m]    |  +- com.google.api.grpc:grpc-google-cloud-storage-v2:jar:2.22.1-alpha:compile
+[[1;34mINFO[m]    |  \- com.google.api.grpc:gapic-google-cloud-storage-v2:jar:2.22.1-alpha:compile
+[[1;34mINFO[m]    +- com.google.code.gson:gson:jar:2.10.1:compile
+[[1;34mINFO[m]    +- commons-lang:commons-lang:jar:2.6:compile
+[[1;34mINFO[m]    +- com.google.api:gax:jar:2.26.0:compile
+[[1;34mINFO[m]    +- net.thisptr:jackson-jq:jar:1.0.0-preview.20191208:compile
+[[1;34mINFO[m]    |  \- org.jruby.joni:joni:jar:2.1.29:compile
+[[1;34mINFO[m]    |     \- org.jruby.jcodings:jcodings:jar:1.0.44:compile
+[[1;34mINFO[m]    +- info.picocli:picocli:jar:4.7.3:compile
+[[1;34mINFO[m]    +- com.formdev:flatlaf:jar:3.1.1:compile
+[[1;34mINFO[m]    \- org.janelia.saalfeldlab:n5-universe:jar:1.1.0:compile
+[[1;34mINFO[m]       \- org.janelia.saalfeldlab:n5-aws-s3:jar:4.0.1:compile
+[[1;34mINFO[m]          \- com.amazonaws:aws-java-sdk-s3:jar:1.12.465:compile
+[[1;34mINFO[m]             +- com.amazonaws:aws-java-sdk-kms:jar:1.12.465:compile
+[[1;34mINFO[m]             +- com.amazonaws:aws-java-sdk-core:jar:1.12.465:compile
+[[1;34mINFO[m]             |  +- software.amazon.ion:ion-java:jar:1.0.2:compile
+[[1;34mINFO[m]             |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.12.6:compile
+[[1;34mINFO[m]             |  \- joda-time:joda-time:jar:2.8.1:compile
+[[1;34mINFO[m]             \- com.amazonaws:jmespath-java:jar:1.12.465:compile
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.788 s
+[[1;34mINFO[m] Finished at: 2023-11-17T16:53:30-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

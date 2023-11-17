@@ -1,0 +1,2402 @@
+Buildfile: /groups/scicompsoft/home/kittisopikulm/src/minimal_n5_ij_ivy_test/build.xml
+
+tree:
+[ivy:configure] :: Apache Ivy 2.5.3-local-20231117153611 - 20231117153611 :: https://ant.apache.org/ivy/ ::
+[ivy:configure] :: loading settings :: file = /groups/scicompsoft/home/kittisopikulm/src/minimal_n5_ij_ivy_test/ivysettings.xml
+[ivy:resolve] :: resolving dependencies :: org.janelia#ivy_n5_ij_demo;working@U2004-MK
+[ivy:resolve] 	confs: [default]
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-ij;3.2.6 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5;3.0.0 in scijava.public
+[ivy:resolve] 	found org.tukaani#xz;1.9 in scijava.public
+[ivy:resolve] 	found org.lz4#lz4-java;1.8.0 in scijava.public
+[ivy:resolve] 	found com.google.code.gson#gson;2.10.1 in scijava.public
+[ivy:resolve] 	found org.scijava#scijava-common;2.94.2 in scijava.public
+[ivy:resolve] 	found org.scijava#parsington;3.1.0 in scijava.public
+[ivy:resolve] 	found org.apache.commons#commons-compress;1.23.0 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-blosc;1.1.0 in scijava.public
+[ivy:resolve] 	found org.lasersonlab#jblosc;1.0.1 in scijava.public
+[ivy:resolve] 	found junit#junit;4.13.2 in scijava.public
+[ivy:resolve] 	found org.hamcrest#hamcrest-core;1.3 in scijava.public
+[ivy:resolve] 	found net.java.dev.jna#jna;5.13.0 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-google-cloud;4.0.0 in scijava.public
+[ivy:resolve] 	found com.google.cloud#google-cloud-storage;2.22.1 in scijava.public
+[ivy:resolve] 	found com.google.guava#guava;31.1-jre in scijava.public
+[ivy:resolve] 	found com.google.guava#failureaccess;1.0.1 in scijava.public
+[ivy:resolve] 	found com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava in scijava.public
+[ivy:resolve] 	found com.google.errorprone#error_prone_annotations;2.19.0 in scijava.public
+[ivy:resolve] 	found com.google.j2objc#j2objc-annotations;2.8 in scijava.public
+[ivy:resolve] 	found com.google.http-client#google-http-client;1.43.1 in scijava.public
+[ivy:resolve] 	found io.opencensus#opencensus-contrib-http-util;0.31.1 in scijava.public
+[ivy:resolve] 	found com.google.http-client#google-http-client-jackson2;1.43.1 in scijava.public
+[ivy:resolve] 	found com.google.http-client#google-http-client-gson;1.43.1 in scijava.public
+[ivy:resolve] 	found com.google.api-client#google-api-client;2.2.0 in scijava.public
+[ivy:resolve] 	found commons-codec#commons-codec;1.15 in scijava.public
+[ivy:resolve] 	found com.google.oauth-client#google-oauth-client;1.34.1 in scijava.public
+[ivy:resolve] 	found com.google.http-client#google-http-client-apache-v2;1.43.1 in scijava.public
+[ivy:resolve] 	found com.google.apis#google-api-services-storage;v1-rev20230301-2.0.0 in scijava.public
+[ivy:resolve] 	found com.google.cloud#google-cloud-core;2.16.0 in scijava.public
+[ivy:resolve] 	found com.google.auto.value#auto-value-annotations;1.10.1 in scijava.public
+[ivy:resolve] 	found com.google.cloud#google-cloud-core-http;2.16.0 in scijava.public
+[ivy:resolve] 	found com.google.http-client#google-http-client-appengine;1.43.1 in scijava.public
+[ivy:resolve] 	found com.google.api#gax-httpjson;0.111.0 in scijava.public
+[ivy:resolve] 	found com.google.cloud#google-cloud-core-grpc;2.16.0 in scijava.public
+[ivy:resolve] 	found com.google.api#gax;2.26.0 in scijava.public
+[ivy:resolve] 	found com.google.api#api-common;2.9.0 in scijava.public
+[ivy:resolve] 	found com.google.code.findbugs#jsr305;3.0.2 in scijava.public
+[ivy:resolve] 	found javax.annotation#javax.annotation-api;1.3.2 in scijava.public
+[ivy:resolve] 	found com.google.auth#google-auth-library-credentials;1.16.1 in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#proto-google-common-protos;2.17.0 in scijava.public
+[ivy:resolve] 	found com.google.protobuf#protobuf-java;3.23.0 in scijava.public
+[ivy:resolve] 	found org.threeten#threetenbp;1.6.8 in scijava.public
+[ivy:resolve] 	found io.opencensus#opencensus-api;0.31.1 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-context;1.55.1 in scijava.public
+[ivy:resolve] 	found com.google.auth#google-auth-library-oauth2-http;1.16.1 in scijava.public
+[ivy:resolve] 	found org.checkerframework#checker-qual;3.34.0 in scijava.public
+[ivy:resolve] 	found org.apache.httpcomponents#httpclient;4.5.14 in scijava.public
+[ivy:resolve] 	found org.apache.httpcomponents#httpcore;4.4.16 in scijava.public
+[ivy:resolve] 	found commons-logging#commons-logging;1.2 in scijava.public
+[ivy:resolve] 	found com.google.api#gax-grpc;2.26.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-alts;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-grpclb;1.54.0 in scijava.public
+[ivy:resolve] 	found org.conscrypt#conscrypt-openjdk-uber;2.5.2 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-auth;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-protobuf;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-protobuf-lite;1.54.0 in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#proto-google-iam-v1;1.12.0 in scijava.public
+[ivy:resolve] 	found com.google.protobuf#protobuf-java-util;3.23.0 in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#proto-google-cloud-storage-v2;2.22.1-alpha in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#grpc-google-cloud-storage-v2;2.22.1-alpha in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#gapic-google-cloud-storage-v2;2.22.1-alpha in scijava.public
+[ivy:resolve] 	found com.fasterxml.jackson.core#jackson-core;2.14.2 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-api;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-stub;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-netty-shaded;1.54.0 in scijava.public
+[ivy:resolve] 	found io.perfmark#perfmark-api;0.26.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-core;1.54.0 in scijava.public
+[ivy:resolve] 	found com.google.android#annotations;4.1.1.4 in scijava.public
+[ivy:resolve] 	found org.codehaus.mojo#animal-sniffer-annotations;1.23 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-googleapis;1.54.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-xds;1.54.0 in scijava.public
+[ivy:resolve] 	found io.opencensus#opencensus-proto;0.2.0 in scijava.public
+[ivy:resolve] 	found io.grpc#grpc-services;1.54.0 in scijava.public
+[ivy:resolve] 	found com.google.re2j#re2j;1.7 in scijava.public
+[ivy:resolve] 	found com.google.cloud#google-cloud-resourcemanager;1.18.0 in scijava.public
+[ivy:resolve] 	found com.google.api.grpc#proto-google-cloud-resourcemanager-v3;1.18.0 in scijava.public
+[ivy:resolve] 	found com.google.apis#google-api-services-cloudresourcemanager;v1-rev20230129-2.0.0 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-imglib2;7.0.0 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2-label-multisets;0.11.5 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2;6.1.0 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2-cache;1.0.0-beta-17 in scijava.public
+[ivy:resolve] 	found com.github.ben-manes.caffeine#caffeine;2.9.3 in scijava.public
+[ivy:resolve] 	found org.scijava#scijava-optional;1.0.1 in scijava.public
+[ivy:resolve] 	found net.sf.trove4j#trove4j;3.0.3 in scijava.public
+[ivy:resolve] 	found org.slf4j#slf4j-api;1.7.36 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2-realtransform;4.0.1 in scijava.public
+[ivy:resolve] 	found gov.nist.math#jama;1.0.3 in scijava.public
+[ivy:resolve] 	found jitk#jitk-tps;3.0.3 in scijava.public
+[ivy:resolve] 	found com.googlecode.efficient-java-matrix-library#ejml;0.25 in scijava.public
+[ivy:resolve] 	found se.sawano.java#alphanumeric-comparator;1.4.1 in scijava.public
+[ivy:resolve] 	found net.thisptr#jackson-jq;1.0.0-preview.20191208 in scijava.public
+[ivy:resolve] 	found org.jruby.joni#joni;2.1.48 in scijava.public
+[ivy:resolve] 	found org.jruby.jcodings#jcodings;1.0.58 in scijava.public
+[ivy:resolve] 	found com.fasterxml.jackson.core#jackson-databind;2.14.2 in scijava.public
+[ivy:resolve] 	found com.fasterxml.jackson.core#jackson-annotations;2.14.2 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-hdf5;2.0.0 in scijava.public
+[ivy:resolve] 	found cisd#jhdf5;19.04.1 in scijava.public
+[ivy:resolve] 	found cisd#base;18.09.0 in scijava.public
+[ivy:resolve] 	found commons-io#commons-io;2.11.0 in scijava.public
+[ivy:resolve] 	found org.apache.commons#commons-lang3;3.12.0 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-zarr;1.0.0 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2-ij;2.0.1 in scijava.public
+[ivy:resolve] 	found net.imagej#ij;1.54f in scijava.public
+[ivy:resolve] 	found net.imagej#imagej-common;2.0.4 in scijava.public
+[ivy:resolve] 	found net.imglib2#imglib2-roi;0.14.1 in scijava.public
+[ivy:resolve] 	found org.scijava#scijava-table;1.0.2 in scijava.public
+[ivy:resolve] 	found edu.ucar#udunits;4.3.18 in scijava.public
+[ivy:resolve] 	found commons-lang#commons-lang;2.6 in scijava.public
+[ivy:resolve] 	found info.picocli#picocli;4.7.3 in scijava.public
+[ivy:resolve] 	found com.formdev#flatlaf;3.1.1 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-universe;1.1.0 in scijava.public
+[ivy:resolve] 	found org.janelia.saalfeldlab#n5-aws-s3;4.0.1 in scijava.public
+[ivy:resolve] 	found com.amazonaws#aws-java-sdk-s3;1.12.465 in scijava.public
+[ivy:resolve] 	found com.amazonaws#aws-java-sdk-kms;1.12.465 in scijava.public
+[ivy:resolve] 	found com.amazonaws#aws-java-sdk-core;1.12.465 in scijava.public
+[ivy:resolve] 	found software.amazon.ion#ion-java;1.0.2 in scijava.public
+[ivy:resolve] 	found com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.14.2 in scijava.public
+[ivy:resolve] 	found joda-time#joda-time;2.12.5 in scijava.public
+[ivy:resolve] 	found com.amazonaws#jmespath-java;1.12.465 in scijava.public
+[ivy:resolve] :: resolution report :: resolve 15615ms :: artifacts dl 46ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |  120  |   18  |   18  |   0   ||  122  |   0   |
+	---------------------------------------------------------------------
+[ivy:dependencytree] Dependency tree for org.janelia-ivy_n5_ij_demo
+[ivy:dependencytree] \- org.janelia.saalfeldlab#n5-ij;3.2.6
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-blosc;1.1.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  \- org.lasersonlab#jblosc;1.0.1
+[ivy:dependencytree] |  |  |  +- junit#junit;4.13.2
+[ivy:dependencytree] |  |  |     \- org.hamcrest#hamcrest-core;1.3
+[ivy:dependencytree] |  |     \- net.java.dev.jna#jna;5.13.0
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-google-cloud;4.0.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-resourcemanager;1.18.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |  |  |  +- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-cloud-resourcemanager-v3;1.18.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |     \- com.google.apis#google-api-services-cloudresourcemanager;v1-rev20230129-2.0.0
+[ivy:dependencytree] |  |  \- com.google.cloud#google-cloud-storage;2.22.1
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-jackson2;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.apis#google-api-services-storage;v1-rev20230301-2.0.0
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-core-grpc;2.16.0
+[ivy:dependencytree] |  |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#grpc-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#gapic-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |  |     \- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-imglib2;7.0.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  +- net.thisptr#jackson-jq;1.0.0-preview.20191208
+[ivy:dependencytree] |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  \- org.jruby.joni#joni;2.1.48
+[ivy:dependencytree] |  |  |     \- org.jruby.jcodings#jcodings;1.0.58
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2-label-multisets;0.11.5
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2-cache;1.0.0-beta-17
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  +- com.github.ben-manes.caffeine#caffeine;2.9.3
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |  |  +- net.sf.trove4j#trove4j;3.0.3
+[ivy:dependencytree] |  |     \- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2-cache;1.0.0-beta-17
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- com.github.ben-manes.caffeine#caffeine;2.9.3
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2-realtransform;4.0.1
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  +- gov.nist.math#jama;1.0.3
+[ivy:dependencytree] |  |  |  \- jitk#jitk-tps;3.0.3
+[ivy:dependencytree] |  |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |     \- com.googlecode.efficient-java-matrix-library#ejml;0.25
+[ivy:dependencytree] |     \- se.sawano.java#alphanumeric-comparator;1.4.1
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-hdf5;2.0.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  \- cisd#jhdf5;19.04.1
+[ivy:dependencytree] |  |  |  +- cisd#base;18.09.0
+[ivy:dependencytree] |  |  |  |  +- commons-io#commons-io;2.11.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-lang3;3.12.0
+[ivy:dependencytree] |  |  |  +- commons-io#commons-io;2.11.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-lang3;3.12.0
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-zarr;1.0.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5-blosc;1.1.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  \- org.lasersonlab#jblosc;1.0.1
+[ivy:dependencytree] |  |  |  |  +- junit#junit;4.13.2
+[ivy:dependencytree] |  |  |  |     \- org.hamcrest#hamcrest-core;1.3
+[ivy:dependencytree] |  |  |     \- net.java.dev.jna#jna;5.13.0
+[ivy:dependencytree] |     \- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  +- net.imglib2#imglib2-ij;2.0.1
+[ivy:dependencytree] |  |  +- net.imagej#ij;1.54f
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  +- net.imglib2#imglib2-cache;1.0.0-beta-17
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- com.github.ben-manes.caffeine#caffeine;2.9.3
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |  \- net.imagej#imagej-common;2.0.4
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2-roi;0.14.1
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2-realtransform;4.0.1
+[ivy:dependencytree] |  |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  |  |  +- gov.nist.math#jama;1.0.3
+[ivy:dependencytree] |  |  |  |  |  \- jitk#jitk-tps;3.0.3
+[ivy:dependencytree] |  |  |  |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  |  |     \- com.googlecode.efficient-java-matrix-library#ejml;0.25
+[ivy:dependencytree] |  |  |     \- net.sf.trove4j#trove4j;3.0.3
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-table;1.0.2
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |     \- edu.ucar#udunits;4.3.18
+[ivy:dependencytree] |  +- net.imagej#ij;1.54f
+[ivy:dependencytree] |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  +- com.google.cloud#google-cloud-resourcemanager;1.18.0
+[ivy:dependencytree] |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  +- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |  |  +- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-cloud-resourcemanager-v3;1.18.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |     \- com.google.apis#google-api-services-cloudresourcemanager;v1-rev20230129-2.0.0
+[ivy:dependencytree] |  +- com.google.cloud#google-cloud-storage;2.22.1
+[ivy:dependencytree] |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-jackson2;1.43.1
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  +- com.google.apis#google-api-services-storage;v1-rev20230301-2.0.0
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  +- com.google.cloud#google-cloud-core-grpc;2.16.0
+[ivy:dependencytree] |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  +- com.google.api.grpc#grpc-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  +- com.google.api.grpc#gapic-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |     \- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  +- commons-lang#commons-lang;2.6
+[ivy:dependencytree] |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  +- net.thisptr#jackson-jq;1.0.0-preview.20191208
+[ivy:dependencytree] |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  \- org.jruby.joni#joni;2.1.48
+[ivy:dependencytree] |  |     \- org.jruby.jcodings#jcodings;1.0.58
+[ivy:dependencytree] |  +- info.picocli#picocli;4.7.3
+[ivy:dependencytree] |  +- com.formdev#flatlaf;3.1.1
+[ivy:dependencytree] |  +- org.janelia.saalfeldlab#n5-universe;1.1.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5-google-cloud;4.0.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  +- com.google.cloud#google-cloud-resourcemanager;1.18.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |  |  |  |  +- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-cloud-resourcemanager-v3;1.18.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |     \- com.google.apis#google-api-services-cloudresourcemanager;v1-rev20230129-2.0.0
+[ivy:dependencytree] |  |  |  \- com.google.cloud#google-cloud-storage;2.22.1
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax;2.26.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |     \- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-jackson2;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  +- com.google.api-client#google-api-client;2.2.0
+[ivy:dependencytree] |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  +- com.google.oauth-client#google-oauth-client;1.34.1
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-apache-v2;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.apis#google-api-services-storage;v1-rev20230301-2.0.0
+[ivy:dependencytree] |  |  |  |  +- com.google.cloud#google-cloud-core;2.16.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  +- com.google.cloud#google-cloud-core-http;2.16.0
+[ivy:dependencytree] |  |  |  |  +- com.google.http-client#google-http-client-appengine;1.43.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax-httpjson;0.111.0
+[ivy:dependencytree] |  |  |  |  +- com.google.cloud#google-cloud-core-grpc;2.16.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api#gax-grpc;2.26.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-alts;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-grpclb;1.54.0
+[ivy:dependencytree] |  |  |  |  +- org.conscrypt#conscrypt-openjdk-uber;2.5.2
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-auth;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-protobuf;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-protobuf-lite;1.54.0
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |  +- com.google.auth#google-auth-library-oauth2-http;1.16.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.http-client#google-http-client-gson;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  |  \- com.google.http-client#google-http-client;1.43.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-contrib-http-util;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  |  |  |  \- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |     \- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auth#google-auth-library-credentials;1.16.1
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- com.google.api#api-common;2.9.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.guava#guava;31.1-jre
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#failureaccess;1.0.1
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.guava#listenablefuture;9999.0-empty-to-avoid-conflict-with-guava
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.j2objc#j2objc-annotations;2.8
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.auto.value#auto-value-annotations;1.10.1
+[ivy:dependencytree] |  |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |     \- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-api;0.31.1
+[ivy:dependencytree] |  |  |  |     \- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-context;1.55.1
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-iam-v1;1.12.0
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.protobuf#protobuf-java-util;3.23.0
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-common-protos;2.17.0
+[ivy:dependencytree] |  |  |  |     \- com.google.protobuf#protobuf-java;3.23.0
+[ivy:dependencytree] |  |  |  |  +- org.threeten#threetenbp;1.6.8
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#proto-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#grpc-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  +- com.google.api.grpc#gapic-google-cloud-storage-v2;2.22.1-alpha
+[ivy:dependencytree] |  |  |  |     \- javax.annotation#javax.annotation-api;1.3.2
+[ivy:dependencytree] |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  +- com.google.code.findbugs#jsr305;3.0.2
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-api;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-stub;1.54.0
+[ivy:dependencytree] |  |  |  |  +- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-netty-shaded;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.perfmark#perfmark-api;0.26.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-core;1.54.0
+[ivy:dependencytree] |  |  |  |  +- com.google.android#annotations;4.1.1.4
+[ivy:dependencytree] |  |  |  |  +- org.codehaus.mojo#animal-sniffer-annotations;1.23
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-googleapis;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-xds;1.54.0
+[ivy:dependencytree] |  |  |  |  +- io.opencensus#opencensus-proto;0.2.0
+[ivy:dependencytree] |  |  |  |  +- io.grpc#grpc-services;1.54.0
+[ivy:dependencytree] |  |  |     \- com.google.re2j#re2j;1.7
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5-imglib2;7.0.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  +- net.thisptr#jackson-jq;1.0.0-preview.20191208
+[ivy:dependencytree] |  |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  \- org.jruby.joni#joni;2.1.48
+[ivy:dependencytree] |  |  |  |     \- org.jruby.jcodings#jcodings;1.0.58
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2-label-multisets;0.11.5
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2-cache;1.0.0-beta-17
+[ivy:dependencytree] |  |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  |  +- com.github.ben-manes.caffeine#caffeine;2.9.3
+[ivy:dependencytree] |  |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |  |  |  +- net.sf.trove4j#trove4j;3.0.3
+[ivy:dependencytree] |  |  |     \- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2-cache;1.0.0-beta-17
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  +- com.github.ben-manes.caffeine#caffeine;2.9.3
+[ivy:dependencytree] |  |  |  |  |  +- com.google.errorprone#error_prone_annotations;2.19.0
+[ivy:dependencytree] |  |  |  |     \- org.checkerframework#checker-qual;3.34.0
+[ivy:dependencytree] |  |  |     \- org.scijava#scijava-optional;1.0.1
+[ivy:dependencytree] |  |  |  +- net.imglib2#imglib2-realtransform;4.0.1
+[ivy:dependencytree] |  |  |  |  +- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  |  +- gov.nist.math#jama;1.0.3
+[ivy:dependencytree] |  |  |  |  \- jitk#jitk-tps;3.0.3
+[ivy:dependencytree] |  |  |  |  |  +- org.slf4j#slf4j-api;1.7.36
+[ivy:dependencytree] |  |  |  |     \- com.googlecode.efficient-java-matrix-library#ejml;0.25
+[ivy:dependencytree] |  |     \- se.sawano.java#alphanumeric-comparator;1.4.1
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5-hdf5;2.0.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  \- cisd#jhdf5;19.04.1
+[ivy:dependencytree] |  |  |  |  +- cisd#base;18.09.0
+[ivy:dependencytree] |  |  |  |  |  +- commons-io#commons-io;2.11.0
+[ivy:dependencytree] |  |  |  |     \- org.apache.commons#commons-lang3;3.12.0
+[ivy:dependencytree] |  |  |  |  +- commons-io#commons-io;2.11.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-lang3;3.12.0
+[ivy:dependencytree] |  |  +- org.janelia.saalfeldlab#n5-zarr;1.0.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5-blosc;1.1.0
+[ivy:dependencytree] |  |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  |  \- org.lasersonlab#jblosc;1.0.1
+[ivy:dependencytree] |  |  |  |  |  +- junit#junit;4.13.2
+[ivy:dependencytree] |  |  |  |  |     \- org.hamcrest#hamcrest-core;1.3
+[ivy:dependencytree] |  |  |  |     \- net.java.dev.jna#jna;5.13.0
+[ivy:dependencytree] |  |     \- net.imglib2#imglib2;6.1.0
+[ivy:dependencytree] |  |  +- net.thisptr#jackson-jq;1.0.0-preview.20191208
+[ivy:dependencytree] |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  \- org.jruby.joni#joni;2.1.48
+[ivy:dependencytree] |  |  |     \- org.jruby.jcodings#jcodings;1.0.58
+[ivy:dependencytree] |  |  +- se.sawano.java#alphanumeric-comparator;1.4.1
+[ivy:dependencytree] |  |  \- org.janelia.saalfeldlab#n5-aws-s3;4.0.1
+[ivy:dependencytree] |  |  |  +- org.janelia.saalfeldlab#n5;3.0.0
+[ivy:dependencytree] |  |  |  |  +- org.scijava#scijava-common;2.94.2
+[ivy:dependencytree] |  |  |  |     \- org.scijava#parsington;3.1.0
+[ivy:dependencytree] |  |  |  |  +- com.google.code.gson#gson;2.10.1
+[ivy:dependencytree] |  |  |  |  +- org.tukaani#xz;1.9
+[ivy:dependencytree] |  |  |  |  +- org.lz4#lz4-java;1.8.0
+[ivy:dependencytree] |  |  |     \- org.apache.commons#commons-compress;1.23.0
+[ivy:dependencytree] |  |  |  \- com.amazonaws#aws-java-sdk-s3;1.12.465
+[ivy:dependencytree] |  |  |  |  +- com.amazonaws#aws-java-sdk-kms;1.12.465
+[ivy:dependencytree] |  |  |  |  |  +- com.amazonaws#aws-java-sdk-core;1.12.465
+[ivy:dependencytree] |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  |  +- software.amazon.ion#ion-java;1.0.2
+[ivy:dependencytree] |  |  |  |  |  |  +- com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |     \- joda-time#joda-time;2.12.5
+[ivy:dependencytree] |  |  |  |  |  \- com.amazonaws#jmespath-java;1.12.465
+[ivy:dependencytree] |  |  |  |  |  |  \- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  +- com.amazonaws#aws-java-sdk-core;1.12.465
+[ivy:dependencytree] |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  +- org.apache.httpcomponents#httpclient;4.5.14
+[ivy:dependencytree] |  |  |  |  |  |  +- commons-codec#commons-codec;1.15
+[ivy:dependencytree] |  |  |  |  |  |  +- org.apache.httpcomponents#httpcore;4.4.16
+[ivy:dependencytree] |  |  |  |  |     \- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  +- commons-logging#commons-logging;1.2
+[ivy:dependencytree] |  |  |  |  |  +- software.amazon.ion#ion-java;1.0.2
+[ivy:dependencytree] |  |  |  |  |  +- com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |     \- joda-time#joda-time;2.12.5
+[ivy:dependencytree] |  |  |  |  \- com.amazonaws#jmespath-java;1.12.465
+[ivy:dependencytree] |  |  |  |  |  \- com.fasterxml.jackson.core#jackson-databind;2.14.2
+[ivy:dependencytree] |  |  |  |  |  |  +- com.fasterxml.jackson.core#jackson-core;2.14.2
+[ivy:dependencytree] |  |  |  |  |     \- com.fasterxml.jackson.core#jackson-annotations;2.14.2
+[ivy:dependencytree] |  \- junit#junit;4.13.2
+[ivy:dependencytree] |     \- org.hamcrest#hamcrest-core;1.3
+
+BUILD SUCCESSFUL
+Total time: 16 seconds
