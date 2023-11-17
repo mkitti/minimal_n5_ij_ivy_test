@@ -1,0 +1,7 @@
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="ivy_n5_ij_demo" default="tree">
+    <target name="tree">
+        <ivy:configure file="ivysettings.xml"/>
+        <ivy:resolve />
+        <ivy:dependencytree />
+    </target>
+</project>
